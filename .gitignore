@@ -1,4 +1,16 @@
-__pycache__/
-*.pyc
+# Ficheiros binários de VBIOS e dumps
+*.rom
 *.bak
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pastas de IDEs e editores
 .vscode/
+.idea/
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
