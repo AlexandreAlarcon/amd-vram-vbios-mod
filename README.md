@@ -1,6 +1,6 @@
 # AMD Radeon VBIOS Mod & VRAM Expansion Study
 
-Este repositório documenta um estudo prático de engenharia reversa, modificação de firmware (VBIOS) e adaptação lógica de memória em placas de vídeo AMD Radeon (arquitetura Juniper) para expansão teórica de VRAM.
+Este repositório documenta um estudo prático de engenharia reversa, modificação de firmware (VBIOS) e adaptação lógica de memória em placas de vídeo AMD Radeon hd6700 (arquitetura Juniper) para expansão teórica de VRAM.
 
 ## 🛠️ Sobre o Projeto
 O objetivo deste projeto é analisar a estrutura interna de uma VBIOS de 64 KB, localizar os blocos de configuração da controladora de memória na tabela `VRAM_Info` (AtomBIOS v2.1) e automatizar o processo de atualização de parâmetros de densidade (`ucDensity`) e capacidade (`ucMemorySize`) através de automação em Python.
