@@ -11,7 +11,7 @@ O objetivo deste projeto é analisar a estrutura interna de uma VBIOS de 64 KB, 
 * `patch_vbios_2gb-v2.py` — Script em Python responsável por automatizar o patch binário e o balanceamento de CRC de 8 bits.
 
 ## 🚀 Como Executar o Script de Patch
-Certifique-se de que o ficheiro de dump original (`BiosOriginal.rom`) está na mesma pasta e execute o script via terminal:
+Certifique-se de que o ficheiro de dump original (`bios_original.rom`) está na mesma pasta e com nome correto no arquivo e execute o script via terminal:
 
 ```cmd
-python patch_vbios_2gb-v2.py
+python hd6700_hex_modifier.py
