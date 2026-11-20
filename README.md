@@ -8,7 +8,7 @@ O objetivo deste projeto é analisar a estrutura interna de uma VBIOS de 64 KB, 
 ## 📂 Estrutura do Repositório
 * `BiosOriginal.rom` — Dump original da VBIOS extraído via GPU-Z (64 KB).
 * `bios_modificada.rom` — Ficheiro gerado com os parâmetros ajustados para simulação de 2 GB e checksum recalculado.
-* `patch_vbios_2gb-v2.py` — Script em Python responsável por automatizar o patch binário e o balanceamento de CRC de 8 bits.
+* ` hd6700_hex_modifier.py` — Script em Python responsável por automatizar o patch binário e o balanceamento de CRC de 8 bits.
 
 ## 🚀 Como Executar o Script de Patch
 Certifique-se de que o ficheiro de dump original (`bios_original.rom`) está na mesma pasta e com nome correto no arquivo e execute o script via terminal:
